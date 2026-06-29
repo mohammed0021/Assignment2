@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= product.name %></title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1><%= product.name %></h1>
+  <p><strong>ID:</strong> <%= product.id %></p>
+  <p><strong>Price:</strong> RM <%= product.price.toFixed(2) %></p>
+  <p><strong>Category:</strong> <%= product.category %></p>
+  <p><strong>Description:</strong> <%= product.description %></p>
+  <a href="/">Back to Catalog</a>
+</body>
+</html>
